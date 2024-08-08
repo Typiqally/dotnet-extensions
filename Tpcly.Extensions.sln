@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tpcly.Extensions.Json", "Tpcly.Extensions.Json\Tpcly.Extensions.Json.csproj", "{4E6FA9DE-375D-41C9-96BD-6E99C8EF9273}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tpcly.Extensions.Json.Tests", "Tpcly.Extensions.Json.Tests\Tpcly.Extensions.Json.Tests.csproj", "{927DEE15-A0C0-4B1D-9AF7-7A9830B5416F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{4E6FA9DE-375D-41C9-96BD-6E99C8EF9273}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E6FA9DE-375D-41C9-96BD-6E99C8EF9273}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E6FA9DE-375D-41C9-96BD-6E99C8EF9273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{927DEE15-A0C0-4B1D-9AF7-7A9830B5416F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{927DEE15-A0C0-4B1D-9AF7-7A9830B5416F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{927DEE15-A0C0-4B1D-9AF7-7A9830B5416F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{927DEE15-A0C0-4B1D-9AF7-7A9830B5416F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
