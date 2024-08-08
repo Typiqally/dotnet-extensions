@@ -1,11 +1,10 @@
-using System.Diagnostics;
 using System.Globalization;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
 namespace Tpcly.Extensions.Json;
 
-public class DateTimeOffsetJsonConverter(string format, IFormatProvider? provider = null) : JsonConverter<DateTimeOffset>
+public class DateTimeOffsetFormatJsonConverter(string format, IFormatProvider? provider = null) : JsonConverter<DateTimeOffset>
 {
     private readonly IFormatProvider _provider = provider ?? CultureInfo.CurrentCulture;
     
